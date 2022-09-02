@@ -2,12 +2,13 @@ import React, { Component } from "react";
 
 class Card extends Component {
   render() {
+    const { name, email, id } = this.props;
     return (
       <div className="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5">
-        <img src="https://robohash.org/testing?200x200" alt="Robot" />
+        <img src={`https://robohash.org/${id}?200x200`} alt="Robot" />
         <div>
-          <h2>{this.props.name}</h2>
-          <p>{this.props.email}</p>
+          <h2>{name}</h2>
+          <p>{email}</p>
         </div>
       </div>
     );

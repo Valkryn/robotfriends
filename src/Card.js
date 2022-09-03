@@ -8,7 +8,7 @@ class Card extends Component {
         <img src={`https://robohash.org/${id}?200x200`} alt="Robot" />
         <div>
           <h2>{name}</h2>
-          <p>{email}</p>
+          <p>Email: {email}</p>
         </div>
       </div>
     );

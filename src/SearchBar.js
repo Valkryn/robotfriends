@@ -10,6 +10,7 @@ class SearchBar extends Component {
           placeholder="Search Robots"
           name=""
           id=""
+          onChange={this.props.searchChange}
         />
       </div>
     );

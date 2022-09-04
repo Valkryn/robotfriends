@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import App from "./App";
+import App from "./Container/App";
 import "tachyons";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
